@@ -243,7 +243,6 @@ button{
 	padding: 0  0 81px;
 	border-bottom: transparent solid 1px;
   	position: relative;
-  	border-right: 1px solid #2F80ED;
 }
 .tabs__button:before,
 .tabs__button:after {
@@ -281,8 +280,9 @@ button{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 144px;
+	border-right: 1px solid #2F80ED;
 }
-.tabs__button:last-child.tabs__button-inner{
+.tabs__button:last-child .tabs__button-inner{
 	border-right: 0;
 }
 .tabs__button img{
